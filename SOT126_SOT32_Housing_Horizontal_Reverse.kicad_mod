@@ -2,10 +2,10 @@
   (at 0 0)
   (descr "SOT126, SOT32, Housing, Horizontal, Reverse,")
   (tags "SOT126, SOT32, Housing, Horizontal, Reverse,")
-  (fp_text reference SOT126_SOT32_Housing_Horizontal_Reverse (at 0.14986 -17.89938) (layer F.SilkS)
+  (fp_text reference REF** (at 0.14986 -17.89938) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (fp_text value VAL** (at 0.70104 4.30022) (layer F.SilkS) hide
+  (fp_text value SOT126_SOT32_Housing_Horizontal_Reverse (at 0.70104 4.30022) (layer F.Fab)
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_line (start -2.39776 -5.4991) (end -2.39776 -4.7498) (layer F.SilkS) (width 0.15))
@@ -82,7 +82,7 @@
   (pad 1 thru_hole circle (at -2.29108 0) (size 1.69926 1.69926) (drill 1.19888) (layers *.Cu *.Mask F.SilkS))
   (pad 3 thru_hole circle (at 2.29108 0) (size 1.69926 1.69926) (drill 1.19888) (layers *.Cu *.Mask F.SilkS))
   (pad "" np_thru_hole circle (at 0 -12.79906) (size 3.2004 3.2004) (drill 3.2004) (layers *.Cu *.Mask F.SilkS))
-  (model Housings_SOT/SOT126_SOT32_Housing_Horizontal_Reverse.wrl
+  (model Housings_SOT.3dshapes/SOT126_SOT32_Housing_Horizontal_Reverse.wrl
     (at (xyz 0 0 0))
     (scale (xyz 0.3937 0.3937 0.3937))
     (rotate (xyz 0 0 0))
